@@ -1,0 +1,99 @@
+/* Main text color #757575  */
+/* Title text color #212121 */
+/* Acсent #2196F3 */
+/* Black #000000 */
+/* White #ffffff */
+/* Footer contacts rgba(255, 255, 255, 0.6) */
+
+/* Primary background color #ffffff */
+/* Secondary background color #2f303a */
+/* Third background color #e5e5e5 */
+/* Fourth background color f5f4fa */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --acсent-color: #2196f3;
+  --hero-title-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --third-background-color: #e5e5e5;
+  --fourth-background-color: #f5f4fa;
+  --logo-color: #2196f3;
+  --logo-part-header-color: #000000;
+  --logo-part-footer-color: #ffffff;
+  --button-text-color: #ffffff;
+  --button-background-color: #2196f3;
+  --address-text-color: #ffffff;
+  --contacts-footer-text-color: rgba(255, 255, 255, 0.6);
+}
+/* List options */
+.list {
+  list-style: none;
+}
+/* Page background and text color */
+.page {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+/* Site logo */
+.logo {
+  color: var(--logo-color);
+}
+.logo-part-header {
+  color: var(--logo-part-header-color);
+}
+.logo-part-footer {
+  color: var(--logo-part-footer-color);
+}
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acсent-color);
+}
+.site-nav .link.current {
+  color: var(--acсent-color);
+}
+/* Site contacts */
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--acсent-color);
+}
+/* Site hero */
+.hero-title {
+  color: var(--hero-title-color);
+}
+/* Site sections */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+/* Team */
+.our-team .title {
+  color: var(--title-text-color);
+}
+/* Button */
+.button {
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+}
+/* Footer */
+.address {
+  color: var(--address-text-color);
+}
+.contacts .link-footer {
+  color: var(--contacts-footer-text-color);
+}
+.contacts .link-footer:hover,
+.contacts .link-footer:focus {
+  color: var(--acсent-color);
+}
