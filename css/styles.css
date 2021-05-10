@@ -22,8 +22,12 @@
   --logo-color: #2196f3;
   --logo-part-header-color: #000000;
   --logo-part-footer-color: #ffffff;
-  --button-text-color: #ffffff;
-  --button-background-color: #2196f3;
+  --button-hero-text-color: #ffffff;
+  --button-hero-background-color: #2196f3;
+  --button-text-color: #212121;
+  --button-background-color: #f5f4fa;
+  --button-accent-text-color: #ffffff;
+  --button-accent-background-color: #2196f3;
   --address-text-color: #ffffff;
   --contacts-footer-text-color: rgba(255, 255, 255, 0.6);
 }
@@ -74,7 +78,7 @@
   color: var(--title-text-color);
 }
 /* Features */
-.feature-list .title {
+.feature .title {
   color: var(--title-text-color);
 }
 /* Team */
@@ -82,9 +86,18 @@
   color: var(--title-text-color);
 }
 /* Button */
+.button-hero {
+  color: var(--button-hero-text-color);
+  background-color: var(--button-hero-background-color);
+}
 .button {
   color: var(--button-text-color);
   background-color: var(--button-background-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--button-accent-text-color);
+  background-color: var(--button-accent-background-color);
 }
 /* Footer */
 .address {
